@@ -16,34 +16,34 @@
     <!--шапка страницы-->
     <header class="header">
       <div class="container">
-      <nav class="navigation">
-        <!--логтип-->
-        <a class="logo-link" lang="en" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-        <!--ссылки на разделы-->
+        <nav class="navigation">
+          <!--логтип-->
+          <a class="logo-link" lang="en" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+          <!--ссылки на разделы-->
           <ul class="navigation-list">
-            <li>
-              <a class="navigation-link" href="./index.html" class="link menu-link">Студия</a>
+            <li class="nav-list-item">
+              <a class="navigation-link" href="./index.html" class="link-menu-link">Студия</a>
             </li>
-            <li>
-              <a class="navigation-link" href="./portfolio.html" class="link menu-link">Портфолио</a>
+            <li class="nav-list-item">
+              <a class="navigation-link" href="./portfolio.html" class="link-menu-link">Портфолио</a>
             </li>
-            <li>
-              <a class="navigation-link" href="https://www.google.com.ua/maps" class="link menu-link">Контакты</a>
+            <li class="nav-list-item">
+              <a class="navigation-link" href="" class="link-menu-link">Контакты</a>
             </li>
           </ul>
         </nav>
- <!--контактная информация-->
+        <!--контактная информация-->
         <address class="address">
-            <ul class="address-list-list">
-              <li class="address-list-item">
-                <a class="address-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li class="address-list-item">
-                <a class="address-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
+          <ul class="address-list-list">
+            <li class="address-list-item">
+              <a class="address-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-list-item">
+              <a class="address-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <!--контент странички-->
     <main>
@@ -51,12 +51,12 @@
       <section class="hero">
         <div class="container-hero">
           <!--<div class="hero-item" >-->
-            <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <button class="modal-btn" type="button">Заказать услугу</button>
-          </div>
-       <!--</div>--> 
+          <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <button class="modal-btn" type="button">Заказать услугу</button>
+        </div>
+        <!--</div>-->
       </section>
-      
+
       <!--Секция преимуществ-->
       <section class="section advantage">
         <div class="container">
@@ -86,10 +86,10 @@
           <h2 class="profile">Чем мы занимаемся</h2>
           <ul class="profile-description">
             <li class="profile-pic">
-              <img src="./imj/img3.jpg" alt="разработчик работает на компютере"  />
+              <img src="./imj/img3.jpg" alt="разработчик работает на компютере" />
             </li>
             <li class="profile-pic">
-              <img src="./imj/img2.jpg" alt="дизайнер создает приложение для смартфона"  />
+              <img src="./imj/img2.jpg" alt="дизайнер создает приложение для смартфона" />
             </li>
             <li class="profile-pic-last">
               <img src="./imj/img1.png" alt="дизайнер выбирает цвет из палитры на планшете" />
@@ -103,39 +103,32 @@
           <h2 class="title-team">Наша команда</h2>
           <ul class="team-list">
             <li class="item-team">
-              <figure class="portrait">
-                <img src="./imj/imgID.jpg" alt="бородатый шатен в очках" width="270" class="team-photo"/>
-                  <figcaption class="subd">
-                    <p class="member-list-subtitle">Игорь Демьяненко</p>
-                    <p lang="en" class="member-list-description">Product Designer</p>
-                  </figcaption>
-               </figure>
+              <img src="./imj/imgID.jpg" alt="бородатый шатен в очках" width="270" class="team-photo" />
+              <div class="name-description">
+                <h3 class="member-list-subtitle">Игорь Демьяненко</h3>
+                <p lang="en" class="member-list-description">Product Designer</p>
+              </div>
             </li>
             <li class="item-team">
-              <figure class="portrait">
-                <img src="./imj/imgOR.jpg" alt="красивая блондинка в очках" width="270" class="team-photo"/>
-                    <figcaption class="subd">
-                      <p class="member-list-subtitle">Ольга Репина</p>
-                      <p lang="en" class="member-list-description">Frontend Developer</p>
-                    </figcaption>
-                  </figure>
+              <img src="./imj/imgOR.jpg" alt="красивая блондинка в очках" width="270" class="team-photo" />
+              <div class="name-description">
+                <h3 class="member-list-subtitle">Ольга Репина</h3>
+                <p lang="en" class="member-list-description">Frontend Developer</p>
+              </div>
             </li>
             <li class="item-team">
-              <figure class="portrait">
-               <img src="./imj/imgNT.jpg" alt="бородатый шатен без очков" width="270" class="team-photo"/>
-                  <figcaption class="subd">
-                    <p class="member-list-subtitle">Николай Тарасов</p>
-                    <p lang="en" class="member-list-description">Marketing</p>
-                  </figcaption>
+              <img src="./imj/imgNT.jpg" alt="бородатый шатен без очков" width="270" class="team-photo" />
+              <div class="name-description">
+                <h3 class="member-list-subtitle">Николай Тарасов</h3>
+                <p lang="en" class="member-list-description">Marketing</p>
+              </div>
             </li>
             <li class="item-team">
-              <figure class="portrait">
-               <img src="./imj/imgME.jpg" alt="бородатый брюнет в очках" width="270" class="team-photo"/>
-                  <figcaption class="subd">
-                    <p class="member-list-subtitle">Михаил Ермаков</p>
-                    <p lang="en" class="member-list-description">UI Designer</p>
-                  </figcaption>
-              </figure>
+              <img src="./imj/imgME.jpg" alt="бородатый брюнет в очках" width="270" class="team-photo" />
+              <div class="name-description">
+                <h3 class="member-list-subtitle">Михаил Ермаков</h3>
+                <p lang="en" class="member-list-description">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -146,16 +139,28 @@
       <div class="container">
         <a class="logo-link" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
 
-        <address class="addres">г. Киев, пр-т Леси Украинки, 26</address>
+        <address>
+          <ul class="footer-list">
+            <li>
+              <a class="footer-map" href="https://goo.gl/maps/9hXhkvQrHoETYkARA" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li>
+              <a class="footer-mail" href="mailto:info@example.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
 
-        <div>
+        <!--<div>
           <div>
-            <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </div>
           <div>
             <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
           </div>
-        </div>
+        </div>-->
       </div>
     </footer>
   </body>

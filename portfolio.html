@@ -13,139 +13,148 @@
   </head>
   <body>
     <!--шапка страницы-->
-    <header>
-      <nav>
-        <!--логтип-->
-        <!--<img src="./imj/logo.jpg" alt="логотип компании" width="145" height="31" />-->
-        <a class="logo-link" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-
-        <!--ссылки на разделы-->
-        <div>
-          <ul class="list">
-            <li><a class="list-item" href="./index.html">Студия</a></li>
-            <li><a class="list-item" href="./portfolio.html">Портфолио</a></li>
-            <li><a class="list-item" href="">Контакты</a></li>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <!--логтип-->
+          <a class="logo-link" lang="en" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
+          <!--ссылки на разделы-->
+          <ul class="navigation-list">
+            <li class="nav-list-item">
+              <a class="navigation-link" href="./index.html" class="link menu-link">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="navigation-link" href="./portfolio.html" class="link menu-link">Портфолио</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="navigation-link" href="" class="link menu-link">Контакты</a>
+            </li>
           </ul>
-        </div>
+        </nav>
         <!--контактная информация-->
-        <div>
-          <div>
-            <a class="conts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </div>
-          <div>
-            <a class="conts" href="tel:+380961111111">+38 096 111 11 11</a>
-          </div>
-        </div>
-      </nav>
+        <address class="address">
+          <ul class="address-list-list">
+            <li class="address-list-item">
+              <a class="address-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-list-item">
+              <a class="address-tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <!--ссылки на виды работ-->
-      <ul class="knobs">
-        <a href="Все"><button class="knobs-item" type="button">Все</button></a>
-        <a href="Веб-сайты"> <button class="knobs-item" type="button">Веб-сайты</button></a>
-        <a href="Приложения"> <button class="knobs-item" type="button">Приложения</button></a>
-        <a href="Дизайн"><button class="knobs-item" type="button">Дизайн</button></a>
-        <a href="Маркетинг"><button class="knobs-item" type="button">Маркетинг</button></a>
-      </ul>
+    <section class="completed">
+      <div class="container">
+        <ul class="knobs">
+          <li class="knobs-name">
+            <a href="Все"><button class="knobs-item" type="button">Все</button></a>
+          </li>
+          <li class="knobs-name">
+            <a href="Веб-сайты"> <button class="knobs-item" type="button">Веб-сайты</button></a>
+          </li>
+          <li class="knobs-name">
+            <a href="Приложения"> <button class="knobs-item" type="button">Приложения</button></a>
+          </li>
+          <li class="knobs-name">
+            <a href="Дизайн"><button class="knobs-item" type="button">Дизайн</button></a>
+          </li>
+          <li class="knobs-name">
+            <a href="Дизайн"><button class="knobs-item" type="button">Дизайн</button></a>
+          </li>
+          <li class="knobs-name">
+            <a href="Маркетинг"><button class="knobs-item" type="button">Маркетинг</button></a>
+          </li>
+        </ul>
 
-      <!--Работы компании-->
-      <ul class="work-description">
-        <li>
-          <figure>
+        <ul class="work-description">
+          <li class="work-desc-container" >
             <img src="./imj-portfolio/imgTechnokryak.jpg" alt="открытый ноутбук с картинкой" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works">Технокряк</h2>
-              <p class="description">Веб-сайт</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works">Технокряк</h2>
+                <p class="description">Веб-сайт</p>
+              </div>
+          </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgPoster.jpg" alt="два баскетболиста борются за мяч" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works">Постер <span lang="en">New Orlean vs Golden star</span></h2>
-              <p class="description">Дизайн</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works">Постер <span lang="en">New Orlean vs Golden star</span></h2>
+                <p class="description">Дизайн</p>
+              </div>
+          </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgSeaFood.jpg" alt="логотип ресторана" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works">Ресторан <span lang="en">Seafood</span></h2>
-              <p class="description">Приложение</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works">Ресторан <span lang="en">Seafood</span></h2>
+                <p class="description">Приложение</p>
+              </div>
+          </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgPrime.jpg" alt="наушники" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works">Проект<span lang="en"> Prime</span></h2>
-              <p class="description">Маркетинг</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works">Проект<span lang="en"> Prime</span></h2>
+                <p class="description">Маркетинг</p>
+              </div>
+         </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgBoxes.png" alt="две коробки" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works">Проект <span lang="en"> Boxes</span></h2>
-              <p class="description">Приложение</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works">Проект <span lang="en"> Boxes</span></h2>
+                <p class="description">Приложение</p>
+              </div>
+         </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgInspiration.jpg" alt="монитор" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works"><span lang="en">Inspiration has no Borders</span></h2>
-              <p class="description">Веб-сайт</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works"><span lang="en">Inspiration has no Borders</span></h2>
+                <p class="description">Веб-сайт</p>
+              </div>
+          </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgIimitedEdition.jpg" alt="открытая книга" width="370" height="294" />
-            <figcaption>
+            <div class="work-card">
               <h2 class="company-works">Издание <span lang="en">Limited Edition</span></h2>
               <p class="description">Дизайн</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+            </div>
+         </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgLab.jpg" alt="красивая этикетка" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works">Проект <span lang="en">Lab</span></h2>
-              <p class="description">Маркетинг</p>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
+              <div class="work-card">
+                <h2 class="company-works">Проект <span lang="en">Lab</span></h2>
+                <p class="description">Маркетинг</p>
+              </div>
+          </li>
+          <li class="work-desc-container">
             <img src="./imj-portfolio/imgGrowing.jpg" alt="работа на ноутбуке" width="370" height="294" />
-            <figcaption>
-              <h2 class="company-works"><span lang="en">Growing Business</span></h2>
-              <p class="description">Приложение</p>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </main>
-    <footer class="footer">
-      <a class="logo-link" href="WebStudio"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
-
-      <address class="addres">г. Киев, пр-т Леси Украинки, 26</address>
-
-      <div>
-        <div>
-          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </div>
-        <div>
-          <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-        </div>
+              <div class="work-card">
+                <h2 class="company-works"><span lang="en">Growing Business</span></h2>
+                <p class="description">Приложение</p>
+              </div>
+           </li>
+        </ul>
       </div>
-    </footer>
+    </section>
+  </main>
+    <footer class="footer-dark">
+      <div class="container">
+        <a class="logo-link" href="WebStudio"><span class="logo-web">Web</span><span
+            class="logo-studio-footer">Studio</span></a>
+    
+        <address>
+          <ul class="footer-list">
+            <li>
+              <a class="footer-map" href="https://goo.gl/maps/9hXhkvQrHoETYkARA" target="_blank">г. Киев, пр-т Леси
+                Украинки, 26</a>
+            </li>
+            <li>
+              <a class="footer-mail" href="mailto:info@example.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
   </body>
 </html>
