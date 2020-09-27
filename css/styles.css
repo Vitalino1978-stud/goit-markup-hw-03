@@ -59,7 +59,7 @@ h3 {
 
 .section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  /*padding-bottom: 94px;*/
 }
 /*.flexbox {
   display: flex;
@@ -86,6 +86,9 @@ h3 {
   padding-top: 24px;
   padding-bottom: 25px;
   background-color: #ffffff;
+}
+header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header .container {
@@ -129,6 +132,8 @@ h3 {
 .address-list-list {
   font-style: normal;
   display: flex;
+  align-items: center;
+  margin-left: 331px; /*auto;*/
   /*align-items: baseline;*/
 }
 .address {
@@ -142,12 +147,11 @@ h3 {
 /*.navigation-list .li:not(:last-child) {
   margin-right: 50px;
 }*/
-.header .address {
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-left: auto;
-  /*align-items: baseline;*/
-}
+/*.header .address {
+  /*padding-top: 24px;
+  padding-bottom: 25px;*/
+/*margin-left: auto;
+}*/
 /*.header .address .li:not(:last-child) {
   margin-right: 50px;
 }*/
@@ -203,14 +207,15 @@ h3 {
 /*heroooooooo*/
 
 .hero {
+  border-top: var(--accent-color);
   background: #2f303a;
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .container-hero {
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .hero-title {
   max-width: 696px;
@@ -252,10 +257,10 @@ h3 {
 
 /*Advantage*/
 
-.advantage {
-  padding-top: 94px;
-  /*padding-bottom: 94px;*/
-}
+/*.section advantage {
+  /*padding-top: 94px;
+  /*padding-bottom: 94px;
+}*/
 
 .container {
   width: 1200px;
@@ -304,10 +309,10 @@ h3 {
 
 /*profile*/
 
-/*.section profile {
+.section profile {
   margin-top: 94px;
   margin-bottom: 94px;
-}*/
+}
 .profile {
   margin-bottom: 50px;
   font-weight: 700;
@@ -349,6 +354,7 @@ h3 {
 
 .workers {
   background-color: #f5f4fa;
+  padding-top: 94px;
 }
 
 .team-list {
