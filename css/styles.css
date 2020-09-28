@@ -245,10 +245,12 @@ header {
   color: #ffffff;
   background-color: var(--hover-color);
   border-radius: 4px;
-  width: 200px;
+  padding: 10px 32px;
+  min-width: 200px;
+  /*width: 200px;
   height: 50px;
   /*margin: 10px, 32px;*/
-  padding: 10px, 32px;
+  /*padding: 10px, 32px;*/
 }
 
 .modal-btn:hover,
@@ -365,6 +367,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #ffffff;
 }
 .name-description {
   margin: 30px 0;
@@ -377,6 +380,10 @@ header {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.item-team {
+  width: 270px;
+  background: #ffffff;
 }
 
 .members-list {
@@ -424,6 +431,7 @@ header {
   
 }*/
 .footer-map {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
@@ -434,6 +442,7 @@ header {
 }
 .footer-mail,
 .footer-tel {
+  display: block;
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
